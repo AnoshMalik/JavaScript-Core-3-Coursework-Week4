@@ -14,7 +14,7 @@ function factorial(int) {
         y *= x;
         
      }
-    console.log(y);
+    // console.log(y);
     return y;
 }
 
