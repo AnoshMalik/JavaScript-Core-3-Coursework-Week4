@@ -3,10 +3,18 @@
 // be sure to exclude the strings
 
 function average(numbers) {
-    for () { }
-    if (numbers[x] != NaN) {
-
-     }
+    let sum = 0;
+    let avg = 0;
+    let counter = 0;
+    for (let x of numbers) {
+        
+        if (typeof(x) == "number") {
+            sum += x;
+            counter++;
+        }
+    }
+    avg = sum / counter;
+    return avg;
 }
 
 module.exports = average;
