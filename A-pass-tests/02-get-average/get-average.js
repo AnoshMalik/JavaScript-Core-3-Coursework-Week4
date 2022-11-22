@@ -2,6 +2,11 @@
 // return the average of all the numbers
 // be sure to exclude the strings
 
-function average(numbers) {}
+function average(numbers) {
+    for () { }
+    if (numbers[x] != NaN) {
+
+     }
+}
 
 module.exports = average;

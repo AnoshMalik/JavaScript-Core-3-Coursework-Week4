@@ -11,9 +11,11 @@
 function factorial(int) {
     let y = 1
     for (let x = int; x > 0;x--) {
-       y = x * ;
+        y *= x;
+        
      }
-
+    console.log(y);
+    return y;
 }
 
 module.exports = factorial;
